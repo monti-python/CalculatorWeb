@@ -1,0 +1,77 @@
+.button-component {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    /*font-size: 12px;*/
+    font-size: 2vw;
+    max-width: 20%;
+}
+
+.button-component > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40%;
+    color: yellow;
+}
+
+.button-component > button {
+    display: flex;
+    flex: 1 0 auto;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    background-color: darkslategrey;
+    color: white;
+    border: 0;
+    margin: 0 5% 0;
+    padding: 0;
+    box-shadow: 1px 1px 0 black, -1px -1px 0 white;
+    border-radius: 5px;
+    font-size: 4vw;
+
+}
+
+.button-component.big > button {
+    background-color: #F5923E;
+    color: white;
+    height: 160%;
+}
+/*
+
+@media (min-width: 200px) and (min-height: 200px) {
+    .button-component button {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 300px) and (min-height: 300px) {
+    .button-component  {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 400px) and (min-height: 400px) {
+    .button-component button {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 500px) and (min-height: 500px) {
+    .button-component button {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 600px) and (min-height: 600px) {
+    .button-component button {
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 800px) and (min-height: 800px) {
+    .button-component button{
+        font-size: 70px;
+    }
+}
+*/
